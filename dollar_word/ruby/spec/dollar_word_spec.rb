@@ -49,8 +49,8 @@ describe DollarWord do
     end
 
     it 'many dollar words' do
-      compute = DollarWord.compute({words: 'motors drossy toWers governS GrUmPy'})
-      expect(compute[:word_count]).to eq(5)
+      compute = DollarWord.compute({words: 'motors drossy toWers governS GrUmPy I love wild'})
+      expect(compute[:word_count]).to eq(8)
       expect(compute[:dollar_words]).to eq(5)
     end
   end
