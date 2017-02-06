@@ -19,7 +19,7 @@ class DollarWord
         dollar_words += 1
       end
 
-      word_count = 0
+      word_price = 0
     end
 
     {
